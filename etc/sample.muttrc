@@ -1,0 +1,1 @@
+set sendmail="msmtp --file=[PATH_TO_MSMTP_CONFIG]/msmtp.conf --from=default"

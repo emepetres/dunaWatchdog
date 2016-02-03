@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<check_timeout_s>1</check_timeout_s>
+<retries_to_warn>30</retries_to_warn>
+<warn_reminder>3600</warn_reminder>
+<recover_hysteresis>5</recover_hysteresis>
+
+<app>
+    <name>test1</name>
+	<exe>./gnibbles</exe>
+	<working_directory>/usr/games</working_directory>
+	<max_mem_percentage>10.2</max_mem_percentage>
+	<screen_log>1</screen_log>
+	<alarm>
+		<mail>javier@carnero.net</mail>
+	</alarm>
+</app>
