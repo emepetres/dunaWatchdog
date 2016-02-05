@@ -14,8 +14,12 @@ Install
 * Install software:
 mutt msmtp screen
 
-* git clone https://github.com/emepetres/dunaWatchdog.git
-* ./install.sh
+```
+$ git clone https://github.com/emepetres/dunaWatchdog.git
+$ cd dunaWatchdog
+$ ./install.sh
+```
+
 * move/rename the portable folder wherever you want. It is all you need.
 * Edit *portable/etc/msmtp.conf* with your gmail user and password. Any mail configuration can be used configuring msmtp.conf properly (see man msmtp)
 * Edit duna.xml adding the apps you want to watch. Also you can change the global time parameters at top for your own needs.
